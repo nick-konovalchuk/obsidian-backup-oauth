@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ObsidianBackup</title>
+  <meta name="description" content="A personal utility for backing up an Obsidian vault to its owner's private Google Drive.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <p class="eyebrow">Personal backup utility</p>
+    <h1>ObsidianBackup</h1>
+    <p class="lead">Backups of a local Obsidian vault, stored in its owner's private Google Drive.</p>
+    <p>This is a personal-use utility operated by <a href="https://github.com/nick-konovalchuk">nick-konovalchuk</a>. It uses rclone on the owner's Mac to upload timestamped ZIP archives and Git bundles.</p>
+    <h2>Google Drive access</h2>
+    <p>The utility requests the <code>drive.file</code> permission to create, read and verify backup files it creates or that the owner explicitly selects for it. Google OAuth credentials remain in the local rclone configuration.</p>
+    <p>This website describes the utility. Vault notes and backup archives are not published here.</p>
+    <footer><a href="privacy.html">Privacy policy</a></footer>
+  </main>
+</body>
+</html>
